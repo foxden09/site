@@ -1,0 +1,29 @@
+# Site settings
+title: Alexis Fox
+email: your.email@domain.com
+description: >-
+  ML Researcher focused on [your research area]. 
+  Exploring the intersection of [specific interests].
+
+baseurl: ""
+url: "https://alexisfox.dev"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Social links (optional - remove lines you don't want)
+github_username: yourusername
+linkedin_username: yourlinkedin
+twitter_username: yourtwitter
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
