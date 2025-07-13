@@ -2,43 +2,60 @@
 layout: default
 ---
 
-# Alexis Fox
+<style>
+.site-header {
+  display: none !important;
+}
 
-I'm a machine learning researcher focused on [your specific area, e.g., computer vision, NLP, reinforcement learning]. Currently [your current position/affiliation].
+.profile-header {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
 
-## Research Interests
+.profile-content {
+  flex: 1;
+}
 
-My work explores [brief description of your research focus]. I'm particularly interested in:
+.profile-image {
+  flex: 0 0 120px;
+  order: -1;
+}
 
-- [Research area 1]
-- [Research area 2] 
-- [Research area 3]
+.profile-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+</style>
 
-## Publications
+<div class="profile-header">
+  <div class="profile-content">
+    <h1>Alexis Fox</h1>
+    
+    <p>I am a [Your Title] at the <a href="[department-link]">[Department/School Name]</a> at <a href="[university-link]">[University Name]</a> and a (part-time) Research Scientist at <a href="[company-link]">[Company Name]</a>. I work at the intersection of [Your Research Area 1] and [Your Research Area 2].</p>
 
-**[Paper Title]** (2024)  
-*Alexis Fox, Co-author Name*  
-Conference/Journal Name  
-[[Paper]](link) [[Code]](link)
+    <p>I received my Ph.D. in [Field] from [University] advised by <a href="[advisor-link]">[Advisor Name]</a> and <a href="[co-advisor-link]">[Co-advisor Name]</a> ([graduation-year]) and B.S. from [University] ([grad-year]). I've spent time at <a href="[company1-link]">[Company 1]</a> ([year]), <a href="[company2-link]">[Company 2]</a> ([year]), <a href="[company3-link]">[Company 3]</a> ([year]), and <a href="[institution-link]">[Institution]</a> ([years]).</p>
 
-**[Another Paper Title]** (2023)  
-*Alexis Fox, Other Authors*  
-Venue Name  
-[[Paper]](link) [[Project Page]](link)
+    <p><strong>Ph.D. applicants:</strong> Our lab is hiring! Apply through the official application portal for the [Department]/[Program] Ph.D. program and make sure that you mention my name in your application.</p>
+    
+    <p><strong>Research opportunities:</strong> Please fill out this <a href="[questionnaire-link]">questionnaire</a> and email me once submitted.</p>
 
-*[Add more publications as needed]*
+    <p><a href="mailto:[your-email]">Email</a> / <a href="[scholar-link]">Google Scholar</a> / <a href="[cv-link]">CV (Month Year)</a> / <a href="[github-link]">Github</a> / <a href="[twitter-link]">Twitter</a></p>
+  </div>
+  
+  <div class="profile-image">
+    <img src="assets/images/profile.jpg" alt="Alexis Fox" />
+  </div>
+</div>
 
-## Current Work
+## Research
 
-[Brief description of what you're currently working on - 1-2 sentences]
+I [Lab Name] ([Lab Acronym]). We aim to [lab mission statement]. Our work focuses on [research focus areas]. The research draws equally from [Field 1] and [Field 2], with the following themes:
 
-## Contact
+- **[Research Theme 1]:** [Description of research theme 1 with more detail about approach and goals]
 
-**Email:** [your.email@domain.com](mailto:your.email@domain.com)  
-**Google Scholar:** [Your Profile](link)  
-**GitHub:** [yourusername](https://github.com/yourusername)  
-**LinkedIn:** [Your Name](link)
+- **[Research Theme 2]:** [Description of research theme 2, including methods and applications]
 
----
-
-*Last updated: [Date]*
+- **[Research Theme 3]:** [Description of research theme 3, covering technical approach and broader impact]

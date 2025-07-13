@@ -1,0 +1,44 @@
+// Custom styles for academic layout
+.site-header {
+  display: none !important;
+}
+
+.profile-header {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.profile-content {
+  flex: 1;
+}
+
+.profile-image {
+  flex: 0 0 120px;
+  order: -1;
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+// Responsive layout
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    flex: none;
+    order: 0;
+    align-self: center;
+    
+    img {
+      width: 120px;
+    }
+  }
+}
