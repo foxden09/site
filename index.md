@@ -8,6 +8,12 @@ layout: default
   display: none !important;
 }
 
+
+/* Hide footer */
+.site-footer {
+  display: none !important;
+}
+
 /* Main layout */
 .profile-header {
   display: flex;
@@ -21,20 +27,31 @@ layout: default
 }
 
 .profile-image {
-  flex: 0 0 120px;
+  flex: 0 0 200px;
   order: -1;
+  margin-top: 15px;
 }
 
 .profile-image img {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  height: 240px;
+  border-radius: 3px;
   display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.highlight-oral {
+  background-color: #fff3cd;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #856404;
+  font-weight: bold;
 }
 
 /* Ensure consistent typography */
 h1 {
-  font-size: 2.5em;
+  font-size: 2.1em;
   margin-bottom: 0.5em;
   margin-top: 0;
 }
@@ -48,23 +65,21 @@ h1 {
   
   .profile-image {
     align-self: center;
+    margin-top: 0;
   }
 }
 </style>
+
+
 
 <div class="profile-header">
   <div class="profile-content">
     <h1>Alexis Fox</h1>
     
-    <p>I am a [Your Title] at the <a href="[department-link]">[Department/School Name]</a> at <a href="[university-link]">[University Name]</a> and a (part-time) Research Scientist at <a href="[company-link]">[Company Name]</a>. I work at the intersection of [Your Research Area 1] and [Your Research Area 2].</p>
+    <p>I am a 2nd-year CS student at Duke University. I'm currently working on symbolic transformer architecture under <a href="https://www.linkedin.com/in/claytonkerce/">Clayton Kerce</a> at GTRI!</p>
 
-    <p>I received my Ph.D. in [Field] from [University] advised by <a href="[advisor-link]">[Advisor Name]</a> and <a href="[co-advisor-link]">[Co-advisor Name]</a> ([graduation-year]) and B.S. from [University] ([grad-year]). I've spent time at <a href="[company1-link]">[Company 1]</a> ([year]), <a href="[company2-link]">[Company 2]</a> ([year]), <a href="[company3-link]">[Company 3]</a> ([year]), and <a href="[institution-link]">[Institution]</a> ([years]).</p>
-
-    <p><strong>Ph.D. applicants:</strong> Our lab is hiring! Apply through the official application portal for the [Department]/[Program] Ph.D. program and make sure that you mention my name in your application.</p>
-    
-    <p><strong>Research opportunities:</strong> Please fill out this <a href="[questionnaire-link]">questionnaire</a> and email me once submitted.</p>
-
-    <p><a href="mailto:[your-email]">Email</a> / <a href="[scholar-link]">Google Scholar</a> / <a href="[cv-link]">CV (Month Year)</a> / <a href="[github-link]">Github</a> / <a href="[twitter-link]">Twitter</a></p>
+    <p><a href="mailto:alexis.fox@duke.edu">Email</a> / <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&hl=en&user=iVIop8YAAAAJ&authuser=2">Google Scholar</a> / <a href="https://github.com/foxden09">Github</a> / <a href="https://www.linkedin.com/in/alexis-fox7/">Linkedin</a></p>
+    <!-- / <a href="[cv-link]">CV (Month Year)</a>  -->
   </div>
   
   <div class="profile-image">
@@ -72,12 +87,10 @@ h1 {
   </div>
 </div>
 
-## Research
+## Publications
 
-I [Lab Name] ([Lab Acronym]). We aim to [lab mission statement]. Our work focuses on [research focus areas]. The research draws equally from [Field 1] and [Field 2], with the following themes:
-
-- **[Research Theme 1]:** [Description of research theme 1 with more detail about approach and goals]
-
-- **[Research Theme 2]:** [Description of research theme 2, including methods and applications]
-
-- **[Research Theme 3]:** [Description of research theme 3, covering technical approach and broader impact]
+**A Unifying Information-theoretic Perspective on Evaluating Generative Models** \\
+*<u>Alexis Fox</u>, Samarth Swarup, Abhijin Adiga*  
+Proceedings of the AAAI Conference on Artificial Intelligence [main track, 2025] \\
+<span class="highlight-oral">Oral (top 5%)</span>   
+[[Paper](https://arxiv.org/abs/2412.14340)] [[Code](https://github.com/NSSAC/PrecisionRecallMetric)]
