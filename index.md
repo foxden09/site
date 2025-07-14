@@ -3,10 +3,12 @@ layout: default
 ---
 
 <style>
+/* Hide navigation header */
 .site-header {
   display: none !important;
 }
 
+/* Main layout */
 .profile-header {
   display: flex;
   gap: 30px;
@@ -27,6 +29,26 @@ layout: default
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
+}
+
+/* Ensure consistent typography */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    align-self: center;
+  }
 }
 </style>
 
