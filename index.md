@@ -78,6 +78,11 @@ h1 {
     
     <p>I am a 2nd-year CS student at Duke University. I'm currently working on symbolic transformer architecture under <a href="https://www.linkedin.com/in/claytonkerce/">Clayton Kerce</a> at GTRI!</p>
 
+    <p>Interested in <a href="https://garymarcus.substack.com/p/how-o3-and-grok-4-accidentally-vindicated?utm_source=post-email-title&publication_id=888615&post_id=168187066&utm_campaign=email-post-title&isFreemail=true&r=47i8u&triedRedirect=true&utm_medium=email">neuro-symbolic AI</a>.</p>
+
+    <br> 
+    <br>
+
     <p><a href="mailto:alexis.fox@duke.edu">Email</a> / <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&hl=en&user=iVIop8YAAAAJ&authuser=2">Google Scholar</a> / <a href="https://github.com/foxden09">Github</a> / <a href="https://www.linkedin.com/in/alexis-fox7/">Linkedin</a></p>
     <!-- / <a href="[cv-link]">CV (Month Year)</a>  -->
   </div>
@@ -88,9 +93,9 @@ h1 {
 </div>
 
 ## Publications
-
 **A Unifying Information-theoretic Perspective on Evaluating Generative Models** \\
-*<u>Alexis Fox</u>, Samarth Swarup, Abhijin Adiga*  
-Proceedings of the AAAI Conference on Artificial Intelligence [main track, 2025] \\
-<span class="highlight-oral">Oral (top 5%)</span>   
+*<u>Alexis Fox*</u>, Samarth Swarup, Abhijin Adiga*  \\
+Proceedings of the AAAI Conference on Artificial Intelligence [main track, 2025]  \\
+<span class="highlight-oral">Oral (top 5%)</span> 
+
 [[Paper](https://arxiv.org/abs/2412.14340)] [[Code](https://github.com/NSSAC/PrecisionRecallMetric)]
