@@ -76,7 +76,10 @@ h1 {
   <div class="profile-content">
     <h1>Alexis Fox</h1>
     
-    <p>I am a 2nd-year CS student at Duke University. I'm currently working on symbolic transformer architecture under <a href="https://www.linkedin.com/in/claytonkerce/">Clayton Kerce</a> at GTRI! I previously worked at UVA's Biocomplexity Institute with Dr. Samarth Swarup.</p>
+    <p>I am a 2nd-year CS student at Duke University. I'm currently working on symbolic transformer architecture under <a href="https://www.linkedin.com/in/claytonkerce/">Clayton Kerce</a> at GTRI!</p>
+
+    <p>Interested in <a href="https://garymarcus.substack.com/p/how-o3-and-grok-4-accidentally-vindicated?utm_source=post-email-title&publication_id=888615&post_id=168187066&utm_campaign=email-post-title&isFreemail=true&r=47i8u&triedRedirect=true&utm_medium=email">neuro-symbolic AI</a>.</p>
+
     <br> 
     <br>
 
